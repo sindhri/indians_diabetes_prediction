@@ -26,5 +26,5 @@ epochs = [50, 100, 150]
 batches = [5, 10, 20]  
 
 After the grid search, which took ~20 minutes to run on the local CPU, the following configuration generates the best result:  
-Best: 0.748698 using {'batch_size': 5, 'epochs': 150, 'init': 'normal', 'optimizer': 'adam'}
+Best: 0.748698 using {'batch_size': 5, 'epochs': 150, 'init': 'normal', 'optimizer': 'adam'}  
 So the final accuracy is 0.75
