@@ -1,6 +1,7 @@
 # Indians Diabetes Prediction
 
 Use simple MLP, cross-validation and grid search to use 9 features to predict diabetes.
+Credit: Deep Learning with Python by Jason Brownlee
 
 Data source UCL Machine Learning Repository
 http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
