@@ -28,3 +28,12 @@ batches = [5, 10, 20]
 After the grid search, which took ~20 minutes to run on the local CPU, the following configuration generates the best result:  
 Best: 0.748698 using {'batch_size': 5, 'epochs': 150, 'init': 'normal', 'optimizer': 'adam'}  
 So the final accuracy is 0.75
+
+
+## checkpoints_plot
+Use checkpoints to save the best performance
+Plot history: loss function and metrics for each epoch throughout the training
+
+## checkpoints_load
+Load the weights from the saved checkpoints for the model, then evaluate the model and calculate the accuracy
+But the final accuracy was different from when the checkpoints were made. Is it due to stochastic?
