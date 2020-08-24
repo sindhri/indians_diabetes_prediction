@@ -1,8 +1,7 @@
 # Indians Diabetes Prediction
 
-Use simple MLP, cross-validation and grid search to use 9 features to predict diabetes.
-Credit: Deep Learning with Python by Jason Brownlee
-
+Use nine demographic/medical measurements to predict diabetes through a simple MLP with cross-validation and grid search.  
+Credit: Deep Learning with Python by Jason Brownlee  
 Data source UCL Machine Learning Repository
 http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
 
@@ -27,6 +26,7 @@ batches = [5, 10, 20]
 
 After the grid search, which took ~20 minutes to run on the local CPU, the following configuration generates the best result:  
 Best: 0.748698 using {'batch_size': 5, 'epochs': 150, 'init': 'normal', 'optimizer': 'adam'}  
+
 So the final accuracy is 0.75
 
 
